@@ -1,0 +1,165 @@
+/*TODO ESTO HEADER */
+
+header {
+	background-color: #250441;
+}
+
+#btn-menu {
+	display: none;
+}
+
+header label {
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+header label:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu li:hover {
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: white;
+
+}
+
+ul li {
+	margin-left: 20px;
+	display: inline;
+}
+
+.logo {
+	width: 50%; 
+	height:20%;
+}
+			/*TERMINA TODO ESTO HEADER */
+
+
+.section {
+	background-color: #440A73;
+	height: 100%;
+}
+
+.back-flor {
+	background-image: url("../image/header-image.jpg");
+	height: 500px;
+	background-size: cover;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10%;
+
+}
+
+.cuadro {
+	background-color: #440A73;
+	height: 300px;
+	width: 70%;
+	text-align: center;
+	margin-left: 150px;
+}
+
+.fotos {
+	height: 220px; 
+	width: 90%;
+}
+
+.cuadrotexto {
+	background-color: #250441;
+	height: 80px;
+	width: 90%;
+	text-align: center;	
+	margin-top: -10px;
+}
+
+.flor1 {
+	width: 90%;
+	height: 80%;
+	margin-top: 30px;
+}
+
+.cuadrotexto2 {
+	background-color: #250441;
+	height: 100%;
+	width: 90%;	
+	margin-top: -10px;
+	padding: 3%;
+	text-orientation: justify;
+	text-align: center;
+}
+
+form {
+	width: 115%;
+	height: 70px;
+	background-color: #250441;
+	border-radius: 9px;
+	padding: 6%;
+	margin-left: -80px;
+	margin-top: 30px;
+	padding-left: 7%;
+	color: yellow;
+}
+
+input {
+	background-color: #440A73;
+	border-radius: 9px;
+	height: 40px;
+	width: 100%;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+	
+	header label {
+		display: inline-block;
+	}
+
+	.menu {
+		position: absolute;
+		background: #250441;
+		margin-left: 80%;
+		width: 30%;
+	}
+
+	.menu ul {
+		flex-direction: column;
+
+	}
+
+	.menu li {
+		border-top: 1px solid white;
+	}
+
+	#btn-menu [type="checked"]:.menu {
+		margin: 0;
+	}
+
+
+
+
+}
