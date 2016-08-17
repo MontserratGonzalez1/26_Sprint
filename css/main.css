@@ -98,7 +98,6 @@ ul li {
 	width: 90%;	
 	margin-top: -10px;
 	padding: 3%;
-	text-orientation: justify;
 	text-align: center;
 }
 
@@ -121,6 +120,35 @@ input {
 	width: 100%;
 }
 
+.about {
+	background-color: #250441;
+	width: 300px;	
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: -80px;
+	padding-top: 1%;
+}
+
+.kew {
+	height: 350px;
+	width: 300px;
+	margin-left: -80px;
+}
+
+.amanda {
+	background-color: #250441;
+	width: 300px;
+	height: 300px;
+	margin-left: -80px;
+	padding: 10%;
+	color: white;
+}
+
+
+.icon ul {
+	display: inline;
+}
 
 /* Responsive */
 
