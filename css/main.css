@@ -22,9 +22,8 @@ nav{
 	}
 }
 .back{
-	background-image: url("../image/header-image.jpg");
-	background-size: 98%;
-	background-position: center;
+	background-image: url("../image/header.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 20%;
 	margin: 5% 30%;
